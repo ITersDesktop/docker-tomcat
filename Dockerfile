@@ -1,5 +1,4 @@
-FROM tomcat:8.0-alpine
-#FROM tomcat:7-jdk8-openjdk
+FROM tomcat:7-jdk8-openjdk
 LABEL maintainer="admin@itersdesktop.com"
 
 ADD grailsapp.war /usr/local/tomcat/webapps/
